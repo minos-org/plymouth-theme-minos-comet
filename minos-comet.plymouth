@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Minos
+Description=Minos comet plymouth theme
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/minos-comet
+ScriptFile=/lib/plymouth/themes/minos-comet/minos-comet.script
