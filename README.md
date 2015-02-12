@@ -22,13 +22,13 @@
 
 3. Enjoy ☺!
 
-## Uninstalling
+### On other Linux distributions
 
-If by any reason you dislike [plymouth-minos-comet](https://github.com/minos-org/plymouth-theme-minos-comet) you can uninstall it as any other deb package:
+1. Type `sudo mkdir -p /lib/plymouth/themes/minos-comet/`
 
-   ```
-   $ sudo apt-get remove plymouth-theme-minos-comet
-   ```
+2. Copy files `sudo cp *png *.plymouth *.script /lib/plymouth/themes/minos-comet/`
+
+3. Set the default theme and rebuild the initramfs file `plymouth-set-default-theme -R minos-comet`
 
 ## Feedback
 
