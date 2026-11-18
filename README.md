@@ -26,9 +26,9 @@
 
 ### On other Linux distributions
 
-1. Type `sudo mkdir -p /lib/plymouth/themes/minos-comet/`
+1. Type `sudo mkdir -p /usr/share/plymouth/themes/minos-comet/`
 
-2. Copy files `sudo cp *png *.plymouth *.script /lib/plymouth/themes/minos-comet/`
+2. Copy files `sudo cp *png *.plymouth *.script /usr/share/plymouth/themes/minos-comet/`
 
 3. Set the default theme and rebuild the initramfs file `plymouth-set-default-theme -R minos-comet`
 
